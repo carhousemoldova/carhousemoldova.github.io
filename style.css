@@ -118,6 +118,10 @@
     line-height: 1.75rem;
     margin-bottom: 3rem;
   }
+
+  img {
+    width: 100;
+  }
   
   .overlay__btns {
     width: 100%;
