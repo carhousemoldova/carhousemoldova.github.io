@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="cards_style.css">
+    <script type="module" src="cards_script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <!-- Canvas -->
+    <canvas class="orb-canvas" id="orbCanvas"></canvas>
+    
+    <!-- Overlay -->
+    <div class="overlay">
+        <!-- Overlay inner wrapper -->
+        <div class="overlay__inner">
+            <div class="logo-container">
+                <a class="alogo"><img src="media/logo_png.png" alt="Logo"></a>
+                <p class="logotext">Alege modelul:</p>
+            </div>
+            <!-- Cards -->
+            <div class="cards-container">
+                <div class="card" onclick="selectCard(1)">
+                    <div class="card-content">
+                        <h2 class="card-title">Rama</h2>
+                    </div>
+                    <div class="card-image">
+                        <img src="media/types/frame.png" alt="Card Image">
+                    </div>
+                </div>
+
+                <div class="card" onclick="selectCard(2)">
+                    <div class="card-content">
+                        <h2 class="card-title">Poster</h2>
+                    </div>
+                    <div class="card-image">
+                        <img src="media/types/poster.png" alt="Card Image">
+                    </div>
+                </div>
+
+                <div class="card" onclick="selectCard(3)">
+                    <div class="card-content">
+                        <h2 class="card-title">Panza</h2>
+                    </div>
+                    <div class="card-image">
+                        <img src="media/types/canvas.png" alt="Card Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -226,3 +226,8 @@ document
       orb.fill = colorPalette.randomColor();
     });
   });
+
+
+document.getElementById('goToCardsPage').addEventListener('click', function () {
+  window.location.href = 'cards.html';
+});
