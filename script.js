@@ -227,8 +227,8 @@ document
     });
   });
 
-var redirectButton = document.getElementById("redirectButton");
+// var redirectButton = document.getElementById("redirectButton");
 
-redirectButton.addEventListener("click", function() {
-  window.location.href = window.location.origin + '/cards';
-});
+// redirectButton.addEventListener("click", function() {
+//   window.location.href = window.location.origin + '/cards';
+// });
