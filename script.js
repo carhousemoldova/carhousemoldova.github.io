@@ -229,8 +229,6 @@ document
 
 var redirectButton = document.getElementById("redirectButton");
 
-  // Add a click event listener to the button
 redirectButton.addEventListener("click", function() {
-    // Redirect to the same URL with /cards appended
-  window.location.href = window.location.href + '/cards';
+  window.location.href = window.location.origin + '/cards';
 });
