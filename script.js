@@ -227,7 +227,10 @@ document
     });
   });
 
+var redirectButton = document.getElementById("redirectButton");
 
-document.getElementById('goToCardsPage').addEventListener('click', function () {
-  window.location.href = 'cards.html';
+  // Add a click event listener to the button
+redirectButton.addEventListener("click", function() {
+    // Redirect to the same URL with /cards appended
+  window.location.href = window.location.href + '/cards';
 });
